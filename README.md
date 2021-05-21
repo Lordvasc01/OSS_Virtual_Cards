@@ -1,9 +1,9 @@
-# flutterwave-api-endpoints
+# flutterwave_Virtual_cards
 
 ## Getting Started
 Clone the Repository.
 -------------
-https://github.com/ugwumadu116/flutterwave-api-endpoints.git
+https://github.com/ugwumadu116/flutterwave_Virtual_cards.git
 
 ## Prerequisites
 * Node v10.15.0 or above
@@ -17,14 +17,26 @@ https://github.com/ugwumadu116/flutterwave-api-endpoints.git
 	<th>FUNCTIONALITY</th>
 </tr>
 <tr>
-	<td>POST</td>
-	<td>api/v1/auth/signup</td> 
-	<td>Sign up </td>
+	<td>GET</td>
+	<td>api/v1/list_Vcard</td> 
+	<td>List Your virtual cards </td>
 </tr>
 <tr>
 	<td>POST</td>
-	<td>api/v1/auth/signin</td> 
-	<td>Login </td>
+	<td>api/v1/create_Vcard</td> 
+	<td>create virtual card </td>
+</tr>
+
+<tr>
+	<td>POST</td>
+	<td>api/v1/fund_Vcard</td> 
+	<td>fund virtual card </td>
+</tr>
+
+<tr>
+	<td>POST</td>
+	<td>api/v1/pay</td> 
+	<td>make payemnt using virtual card </td>
 </tr>
 
 </table>
@@ -32,15 +44,10 @@ https://github.com/ugwumadu116/flutterwave-api-endpoints.git
 ## Installation
 
 **On your Local Machine**
-- Pull the [main](https://github.com/ugwumadu116/flutterwave-api-endpoints.git) branch off this repository
-- Run `npm install` to install all dependencies
-- Run npm run heroku-postbuild to build the app
-- Run npm start to start the app
+- Pull the [main](https://github.com/ugwumadu116/flutterwave_Virtual_cards.git) branch off this repository
+- Run `yarn` to install all dependencies
+- Run `yarn run dev` to start the app
 - Access endpoints on **localhost:3001**
-
-## Running the tests
-Run `npm test` in the terminal for the cloned folder.
-
 
 
 ## Built With
