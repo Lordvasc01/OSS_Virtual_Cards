@@ -61,7 +61,6 @@ class CardController {
                 "otp":12345 // your otp code
             })
             
-            
             return res.status(200).json({
                 status: 200,
                 data: {
